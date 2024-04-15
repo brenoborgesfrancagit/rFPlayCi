@@ -51,5 +51,11 @@ jobs:
           robot -d ./results -v HEADLESS:true \
           -v BROWSER:chromium tests
 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: meus resultados
+          path: ./results # or path/to/artifact
+         
+
 
 

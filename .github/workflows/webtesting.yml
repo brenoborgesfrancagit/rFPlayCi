@@ -55,7 +55,7 @@ jobs:
           name: results-chromium
           path: ./results
 
-      - name: Download reports
+      - name: results-chromium
         uses: actions/download-artifact@v1
         with:
           name: reports
